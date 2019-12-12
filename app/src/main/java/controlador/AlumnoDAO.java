@@ -133,7 +133,10 @@ public class AlumnoDAO extends SQLiteOpenHelper {
                                 cursor.getString(6)));
 
 
-        }   
+
+
+                
+        }
         return listaAlumnos;
     }
 }
